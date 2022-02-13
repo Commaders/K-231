@@ -17,6 +17,10 @@ PAYMENT ONLY TO GET PASSWORD ON MY PAYPAL
  cd K-231
  python2 K-231.py
 ```
+
+###### YOUTUBE CHANNEL 
+* https://youtube.com/channel/UCtLzUSwiNXnhq9ikqrgNtog
+
 #### follow on facebook https://facebook.com/DEAUTH3R
 
 #### Give me any money for a buy computer
